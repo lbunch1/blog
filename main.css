@@ -1,0 +1,43 @@
+:root {
+    --background:#113537;
+    --header:#37505C;
+    --gen-text:#0a0f0f;
+    --accent:#FCF7FF;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0;
+    margin:0;
+}
+
+header, footer {
+    display: block;
+    margin:0;
+    padding:20px;
+    background-color: var(--header);
+    color: var(--accent);
+}
+
+.container {
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    gap:20px;
+    padding: 20px;
+}
+
+.archive {
+    background-color: var(--header);
+    color:var(--accent);
+    border-radius: 20px;
+    padding:20px;
+}
+
+article {
+    background-color: var(--accent);
+    border-radius: 20px;
+    color:var(--gen-text);
+    padding:20px;
+}
+
